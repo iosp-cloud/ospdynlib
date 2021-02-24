@@ -1,0 +1,17 @@
+[package]
+name = "ospdynsvr"
+version = "0.1.0"
+authors = ["xStarlord <xstarlord@turbochain.ai>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies] 
+libloading = "0.6"
+#toml = "0.5"
+config = "0.10"
+#libfastdl = "0.2.0"
+
+
+#[lib]
+#crate-type = ["cdylib", "rlib"]
